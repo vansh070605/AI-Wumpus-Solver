@@ -1,0 +1,12 @@
+prefix=e:/WUMPUS/venv/Library
+exec_prefix=e:/WUMPUS/venv/Library
+libdir=e:/WUMPUS/venv/Library/lib
+includedir=e:/WUMPUS/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: 
+Requires.private: 
+Cflags: -I${includedir} 
